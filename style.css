@@ -1,0 +1,262 @@
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    height: 80px;
+}
+
+h2 {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p {
+    color: #777777;
+    line-height: 1.4;
+    margin: inherit;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: 60px;
+    padding-top: 10x;
+}
+
+#Copyright {
+    position: absolute;
+  
+    bottom: 10px;
+}
+
+body {
+    border-color: #dddddd;
+    background-image: url("../images/criss-cross.png");
+    background-repeat: round;
+    margin: -5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li h1 {
+    float: left;
+}
+  
+li a {
+    display: block;
+    float: right;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#border {
+    border-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+ #card {
+    border-style: solid;
+    border-width: 1px;
+    color: #cccccc;
+    padding-bottom: 10%;
+    margin:  38px 0px 0px 125px;
+    background-color: white;
+    float: center;
+    width: 800px;
+}
+
+#card2 {
+    border-style: solid;
+    border-width: 1px;
+    color: #cccccc;
+    padding-bottom: 102px;
+    margin: 48px 0px 0px 325px;
+    background-color: white;
+    float: center;
+    width: 800px;
+}
+
+#card3 {
+    border-style: solid;
+    border-width: 1px;
+    color: #cccccc;
+    padding-bottom: 102px;
+    margin: 38px 0px 0px 325px;
+    background-color: white;
+    float: center;
+    width: 800px;
+}
+
+#bodyCard {
+    margin: 3%;
+}
+  
+.profile {
+    width: 10%;
+    float: left;
+    margin-right: 15px; }
+
+#box {
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#name {
+    margin-top: 0px;
+    margin-left: 220px;
+    margin-bottom: 0px;
+}
+
+#nameText {
+    padding: 25px 10px 15px 10px;
+}
+
+ header {
+    width: 100%;
+    margin: -8px;
+    margin: auto;
+}
+
+#Name {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+        
+}
+
+#John {
+    border: #cccccc;
+    border-style: Solid;
+    border-width: 1px;
+    color: black;
+}
+#Email {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+}
+
+#Example {
+    border: #cccccc;
+    border-style: Solid;
+    border-width: 1px;
+    color: black;
+}
+
+ #Message {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+}
+
+#Empty {
+    border: #cccccc;
+    border-style: Solid;
+    height: 18px;
+    border-width: 1px;
+    color: black;
+ }
+
+ #resumeLink {
+
+    border: #cccccc;
+    border-style: Solid;
+    height: 18px;
+    border-width: 1px;
+    color: black;
+}
+
+#Linked {
+
+    border: #cccccc;
+    border-style: Solid;
+    height: 18px;
+    border-width: 1px;
+    color: black;
+}
+
+#button {
+        
+    background-color: #4aaaa5; 
+    color: white;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    width: 80px;
+
+}
+
+.WD{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.PF {
+        
+    height: 100px;
+    width: 100px;
+    float: bottom;
+    padding: 5px;
+    margin-top: -5px;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.FH {
+    height: 100px;
+    width: 100px;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.br {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.banner {
+    position:relative;
+    width: 90%;
+}
+
+.Links {
+    color: #4aaaa5;
+}
+
+    /* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
